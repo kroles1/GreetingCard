@@ -1,4 +1,4 @@
-const script = require('../js/index')
+const renderDom = require('./helpers')
 
 let dom;
 let document;
@@ -23,9 +23,5 @@ describe('Testing index.html', () => {
         // btn.dispatchEvent(new dom.window.Event('click'));
         // const h1 = document.querySelector('h1');
         // expect(h1.innerHTML).toContain("you hit me");
-    })
-
-    test('', () => {
-        
     })
 })

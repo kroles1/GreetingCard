@@ -8,15 +8,8 @@
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "jest --watchAll"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kroles1/GreetingCard.git"
   },
   "keywords": [],
   "author": "",
@@ -24,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/kroles1/GreetingCard/issues"
   },
-  "homepage": "https://github.com/kroles1/GreetingCard#readme"
+  "homepage": "https://github.com/kroles1/GreetingCard#readme",
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
 }
