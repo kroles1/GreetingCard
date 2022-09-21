@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>GreetingCard</title>
     <script src="./js/index.js"></script>
 </head>
 <body>
-    
+    <div id='wrapper'>
+
+        <h1>Greeting Card</h1>
+        <div id='controls'>
+        <!-- Greeting -->
+            <h2>Pick a greeting</h2>
+        <input type='radio' class='greetings' name='greeting' id='happy-birthday'>
+        <label for='happy-birthday'>Happy Birthday</label><br>
+        <input type='radio' class='greetings' name='greeting' id='thank-you'>
+        <label for='thank-you'>Thank You</label><br>
+        <input type='radio' class='greetings' name='greeting' id='congratulations'>
+        <label for='contratulations'>Congratulations</label><br>
+        <input type='radio' class='greetings' name='greeting' id='merry-christmas'>
+        <label for='merry-christmas'>Merry Christmas</label><br>
+          
+        <h2>Pick an event</h2>
+        <input type='radio' class='events' name='event' id='birthday'>
+        <label for='birthday'>Birthday</label><br>
+        <input type='radio' class='events' name='event' id='gratitude'>
+        <label for='gratitude'>Gratitude</label><br>
+        <input type='radio' class='events' name='event' id='christmas'>
+        <label for='christmas'>Christmas</label><br>
+        <input type='radio' class='events' name='event' id='graduation'>
+        <label for='graduation'>Graduation</label><br>
+          <div class="clearfix"></div>
+            
+            <!-- Message -->	
+            <h3 class="type_message">Type your message</h3>
+                <input required type='text' id='text'>   
+        </div><!--end controls-->
+        
+            <!-- Buttons -->
+            <input type='submit' id='submit' value='Submit'>
+        </div><!--end preview-->
+        
+    </div><!--end wrapper-->
 </body>
 </html>
