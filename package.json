@@ -3,5 +3,26 @@
     "jest": "^29.0.3",
     "jest-environment-jsdom": "^29.0.3",
     "jsdom": "^20.0.0"
-  }
+  },
+  "name": "card-gen",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kroles1/GreetingCard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kroles1/GreetingCard/issues"
+  },
+  "homepage": "https://github.com/kroles1/GreetingCard#readme"
 }
